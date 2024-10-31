@@ -11,4 +11,8 @@ const char* RockPaperScissors(const char* Player1, const char* Player2)
 	{
 		return "Player1";
 	}
+	else if (strcmp(Player1, "Scissors") == 0 && strcmp(Player2, "Rock") == 0)
+	{
+		return "Player2";
+	}
 }
